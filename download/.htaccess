@@ -1,0 +1,6 @@
+Options +FollowSymLinks
+RewriteEngine On
+RewriteBase /
+
+RewriteRule ^([^/]+)/(.*)/([^/]+) /?$1&channels=$2&filename=$3 [C]
+
