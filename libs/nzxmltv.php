@@ -81,7 +81,7 @@ function DeclareConstants()
  //define("rootFolder", $_SERVER['DOCUMENT_ROOT'] . '/');
  //define("rootFolder", str_ireplace($_SERVER['SCRIPT_NAME'], '', $_SERVER['SCRIPT_FILENAME']) . '/');
  define("libsFolder", dirname(__FILE__) . '/');
- include libsFolder . '../config.php';
+ include libsFolder . '../../config.php';
  define("xmltvFolder", rootFolder . 'tmp/xmltv/');
  define("xmltvURL", rootURL . 'tmp/xmltv/');
  define("iconsFolder", xmltvFolder . 'icons/channels/');
